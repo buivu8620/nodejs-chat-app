@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#body {
+  background-color: aqua;
+}
+button:hover {
+  background: #6b47b8;
+}
+p {
+  margin-top: -15px;
+}
+button:disabled {
+  cursor: default;
+  background: #7c5cbf94;
+}
+.join-form {
+  background-color: greenyellow;
+  padding: 30px;
+}
+
+.chat-main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
+.message {
+  margin-bottom: 30px;
+}
+.chat-message {
+  flex-grow: 1;
+  padding: 24px 24px 0 24px;
+  overflow-y: scroll;
+}
+.compose {
+  display: flex;
+  flex-shrink: 0;
+  margin-top: 16px;
+  padding: 24px;
+}
+.compose form {
+  display: flex;
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.compose input {
+  border: 1px solid #eeeeee;
+  width: 100%;
+  padding: 12px;
+  margin: 0 16px;
+  flex-grow: 1;
+}
+
+.compose button {
+  font-size: 14px;
+  margin: 0 15px;
+}
+#sidebar h2 {
+  text-align: center;
+}
+#sidebar h3 {
+  text-align: center;
+}
+
+#top-sidebar {
+  width: 100%;
+  background-color: aquamarine;
+}
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+ul li {
+  list-style: decimal;
+  font-size: 16px;
+  color: red;
+}
+#message {
+  margin-left: 30px;
+}
